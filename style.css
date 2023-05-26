@@ -7,7 +7,7 @@
 
 .nome{
     color: rgb(2, 193, 227);
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .cabecalho{
@@ -178,9 +178,12 @@ input{
     background: transparent;
     border-radius: 5px;
     border: solid 3px rgb(1, 169, 199);
+    color: rgb(1, 169, 199);
     padding: 5px;
     font-size: 18px;
 }
+
+
 
 .input-msg{
     height: 60px;
