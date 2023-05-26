@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="nome">PlantAI</h1>
+        <h2 class="opcoes">Home</h2>
+        <h2 class="opcoes">Contato</h2>
+        <h2 class="opcoes">Login</h2>
+        <h2 class="opcoes">Teste</h2>
+        
+        <div class="logos">
+            <a href="https://www.instagram.com/heinz/"><img src="instagram.png" class="link-logo"></a>
+            <a href="https://www.facebook.com/heinzbrasil/"><img src="facebook.png" class="link-logo"></a>
+            <a href="https://mail.google.com/mail/u/0/?hl=pt-BR#inbox"><img src="gmail.png" class="link-logo" ></a>
+            <button id="darkmode" onclick="mudarCor()">Modo Claro</button>
+        </div>
+    </header>
+    
+    <div class="imagem-texto1">
+        <img src="Alface-1024x683.webp" class="imagem-1">
+        <h1 class="texto">Uma solução para revolucionar as plantações e acabar com a fome</h1>
+    </div>
+    <div class="imagem-texto1">
+        <img src="plantatecnologica.png" class="imagem-1">
+        <div class="texto2">
+            <h1>Uma junção entre agronomia e tecnologia</h1>
+            <p>Inteligencia artificial projetada para facilitar e otimizar as plantações, 
+                economizando recursos e ajudando na luta contra a fome.</p>
+            <button class="contato" href="#cadastro">Contact</button>
+        </div>
+    </div>
+    <div class="fala">
+        <h1>"A fome é o pior inimigo do mundo." </h1>
+        <h2>- Mahatma Gandhi</h2>
+    </div>
+    <div id="contact">
+        <div class="textos-contato">
+            <h1 class="contatar">Contate-nos</h1>
+            <h2>Preencha os requisitos ao lado e reponderemos com prontidão</h2>
+        </div>
+        <div class="labels-contato">
+            <label for="Nome" class="form">Nome</label>
+            <input type="text" required>
+            <label for="Email" class="form">Email</label>
+            <input type="email" required>
+            <label for="Email" class="form">Mensagem</label>
+            <input type="text" class="input-msg">
+
+            <button class="enviar-contato">Enviar</button>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
