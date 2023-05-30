@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #222222;
+    background-color: #333333;
 }
 
 .nome{
@@ -33,9 +33,9 @@ a:visited{
 }
 
 .opcoes{
-    font-size: 35px;
+    font-size: 32px;
     margin-top: 90px;
-    margin-left: 40px;
+    margin-left: 30px;
     position: relative;
     text-decoration: none;
 }
@@ -81,8 +81,8 @@ a:visited{
 
 
 .link-logo{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-top: 90px;
     margin-left: 50px; 
 }
@@ -237,4 +237,26 @@ input{
 .cadastro-texto{
     color: aliceblue;
     margin-bottom: 22px;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+/* Página Sobre */
+
+.container-sobre{
+    text-align: center;
+    color: aliceblue;
+    padding: 30px 100px 0px 100px;
+}
+
+.titulo-sobre{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre{
+    font-size: 30px;
+    margin-bottom: 70px;
 }
