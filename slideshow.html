@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <title>Cadastro</title>
+    <title>Slideshow</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -27,19 +27,20 @@
             <a href="https://mail.google.com/mail/u/0/?hl=pt-BR#inbox"><img src="./imagens/gmail.png" class="link-logo"></a>
         </div>
     </header>
-    
-    <div class="container">
-        <h1 class="cadastro-texto">Cadastro</h1>
-        <h2 class="cadastro-texto">Faça o cadastro para receber as novidades e promoções com prontidão!</h2>    
-        <label for="email" class="form">Email</label>
-        <input type="email" class="e-mail">
-        <label for="password" class="form">Senha</label>
-        <input type="password" class="senha">
-        <label for="phone" class="form">Telefone</label>
-        <input type="number" class="telefone">
-        <button class="enviar-contato" onclick="validar()" type=submit>Cadastrar</button>
+    <div class="relogio">
+        <h3>Horário</h3>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+    </div>
+    <div class="texto-slideshow">
+        <h1>A fome</h1>
     </div>
 
-    <script src="cadastro.js"></script>
+    <div class="slideshow">
+        <img name='slide' width="900" height="500">
+    </div>
+
+    
+    <script src="slideshow.js"></script>
 </body>
-</html>
