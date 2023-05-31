@@ -225,6 +225,17 @@ input{
     color: rgb(8, 159, 186);
 }
 
+.divFooter{
+    background-color: #222222;
+}
+
+footer{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    padding: 70px;
+}
+
 /*PÁGINA CADASTRO*/
 
 .container{
